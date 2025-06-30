@@ -1,0 +1,36 @@
+[
+  {
+    "priority": "high",
+    "status": "active",
+    "type": "transformation",
+    "name": "4",
+    "description": "test",
+    "conditions": [],
+    "actions": [],
+    "id": "1751302061627"
+  },
+  {
+    "name": "2",
+    "description": "test",
+    "type": "validation",
+    "status": "active",
+    "priority": "medium",
+    "conditions": [],
+    "actions": [],
+    "id": "1751302133713"
+  },
+  {
+    "name": "Custom Rule",
+    "description": "suggest rules",
+    "type": "validation",
+    "status": "active",
+    "priority": "medium",
+    "conditions": [
+      "Field is not empty"
+    ],
+    "actions": [
+      "Flag if empty"
+    ],
+    "id": "1751302593753"
+  }
+]
